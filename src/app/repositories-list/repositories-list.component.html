@@ -1,5 +1,5 @@
-<h2>Repositories</h2>
-<ul>
+<h2>Projects:</h2>
+<ul class="mx-5 my-2">
   <li *ngFor="let repository of repositories$ | async">
     <a href="https://taylinsquire.github.io/{{repository.name}}">{{ repository.name }}</a>
     (<a href="https://github.com/{{repository.full_name}}">Github</a>)
